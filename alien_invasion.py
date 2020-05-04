@@ -48,7 +48,7 @@ class AlienInvasion:
                 self._update_bullets()
                 self.ship.update()
                 self._update_aliens()
-
+                # self.blit(self.bg_color, [0, 0])
             # print(len(self.bullets))
 
             self._update_screen()
